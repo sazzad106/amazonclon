@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    outline: none;
+}
+
+.navbar{
+    height: 60px;
+    background-color:#0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlogo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid gainsboro;
+}
+
+/**2nd box **/
+
+.add_first{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 16px;
+}
+.add_second{
+    color: white;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add_icon{
+    display: flex;
+    align-items: center;
+}
+
+/**box3**/
+.nav_search{
+    display: flex;
+   
+    width: 520px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search_select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search_box{
+    border: none;
+    width: 100%;
+    font-size: 1rem;
+    padding-left: 5px;
+
+}
+
+.search_icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: orange;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/** box 4-5**/
+.nav_signin,.nav_address ,.nav_return,.nav_cart,.nav_country{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.sp{
+    font-size: .7rem;
+}
+
+.nav_second{
+    font-size: .85rem;
+    font-weight: 700;
+}
+
+/**box6**/
+.nav_cart i{
+    font-size: 1.7rem;
+}
+.cart{
+    font-size: .85rem;
+    font-weight: 700;
+    padding-top: 17px;
+}
+.nav_country i{
+    padding-top:17px;
+}
+
+
+
+
+
+/**panel**/
+.panel{
+    background-color: #161437;
+    display: flex;
+    height: 40px;
+    align-items: center;
+   
+
+}
+.panel_all{
+    display: flex;
+    color: white;
+    padding: 0 20px 0 20px;
+    cursor: pointer;
+    
+   
+}
+.panel_all p{
+    font-size: 15px;
+    font-weight: 550;
+    padding-left:8px ;
+}
+.panel_ops li a{
+    color: #ffffff;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+.panel_ops li{
+    list-style-type: none;
+}
+
+.panel_ops{
+    display: flex;
+    justify-content: space-between;
+    width:410px ;
+}
+
+
+/** hero section **/
+
+
+.hero_section{
+    background-image: url("hero_image.jpg");
+    background-size:cover;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+
+.hero_msg{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 90%;
+    margin-bottom: 45px;
+}
+
+.hero_msg a{
+    color: rgb(15, 134, 190);
+    text-decoration: none;
+    
+}
+
+
+/** shop sec**/
+
+.shop_sec{
+    padding-top: 25px;
+    background-color: #e3e2e2;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box{
+    background-color: white;
+    width: 21%;
+    height: 330px;
+
+    padding:28px 15px 22px 15px;
+    margin-bottom:15px ;
+
+}
+.box h2{
+    font-size: large;
+}
+.box img {
+    height: 70%;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+
+}
+
+.box a{
+    color:rgb(15, 134, 190);
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+
+/**footer **/
+
+.firstpanel{
+    height: 45px;
+    background-color: #1a1841;
+    
+
+
+
+}
+
+.firstpanel button{
+     cursor: pointer;
+     width: 100%;
+     border: none;
+     outline: none;
+    height: 100%;
+     background-color: transparent;
+
+}
+
+.firstpanel button a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 0.85rem;
+}
+
+.firstpanel:hover{
+    background-color: #38357c;
+}
+
+.secondpanel{
+    background-color:  #0e0d21;
+    display: flex;
+    justify-content: space-evenly;
+    height: 270px;
+    border-bottom: 1px solid whitesmoke;
+}
+.boxx h4{
+    color: #dddddd;
+    padding-top: 30px;
+    padding-bottom: 7px;
+}
+.boxx ul li{
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.boxx ul li a{
+    color: #dddddd;
+    text-decoration: none;
+    font-size: .85rem;
+   
+}
+
+
+.thirdpanel{
+    height: 58px ;
+    background-color:#0e0d21;
+    
+}
+.logof{
+    height:55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.logof img{
+    height: 55px;
+}
+
+
+.fourpanel{
+    height: 45px;
+    background-color:#06060f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fourpanel p{
+    color: #dddddd;
+    font-size: .7rem;
+}
+
